@@ -77,7 +77,6 @@ public class MainActivity extends Activity implements SensorEventListener {
 		
 		float rotateDegree = (float) ((degree + 270.0) % 360.0);
 		
-		
 		Bitmap myImg = BitmapFactory.decodeResource(getResources(), R.drawable.arrow);
 
 		Matrix matrix = new Matrix();
